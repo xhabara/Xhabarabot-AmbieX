@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+<style> .button {
+  background-color: #47C20E; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background-color: #06d6a0;
+    border-radius: 10px;
+    border: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: #F9FBF7;
+    border: 1px solid #0F7527;
+    border-radius: 50%;
+    margin-top: -4.5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.3);
+  }
+
+  input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 5px #ADF5E2;
+  }
+
+  /* Apply the custom style to all sliders */
+  input[type="range"] {
+    background-color: transparent;
+  }
+</style>
