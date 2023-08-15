@@ -8,9 +8,9 @@ let volumeSlider1, volumeSlider2, volumeSlider3, volumeSlider4;
 let isPlaying = false;
 
 function preload() {
-  sound1 = loadSound("Falsetto - Shabara Samples 04.wav");
-  sound2 = loadSound("RullyShabaraSampleV05.wav");
-  sound3 = loadSound("RullyShabaraSampleV02.mp3");
+  sound1 = loadSound("RullyShabaraSampleF4.wav");
+  sound2 = loadSound("RullyShabaraSampleF5.wav");
+  sound3 = loadSound("RullyShabaraSampleF26.mp3");
   sound4 = loadSound("RullyShabaraSampleT29.mp3");
 }
 
